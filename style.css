@@ -1,0 +1,166 @@
+body {
+  background: url(https://itsabouttime.run/wp-content/uploads/2013/10/background-51.jpg) no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+}
+
+h1 {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+  font-family: Arial;
+}
+
+input[type=text]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  font-family: Arial;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Set a style for calculate btn */
+button.calculate-btn {
+  color: black;
+  opacity: 0.4;
+  margin-top: 50px;
+  background-color: white;
+  border: 1px solid #5656af;
+  padding: 10px;
+  font-size: 30px;
+  -webkit-box-shadow: 1px 1px 3px;
+          box-shadow: 1px 1px 3px;
+  position: relative;
+  display: inline-block;
+  width: 180px !important;
+  border-radius: 20px;
+  font-family: Arial;
+  margin-left: 45%;
+}
+
+button:hover {
+  opacity: 0.5;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 100%;
+  padding: 14px 20px;
+  background-color: #f44336;
+  font-family: Arial;
+}
+
+.signupbtn {
+  background-color: #23af23;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn, .signupbtn {
+    width: 100%;
+  }
+}
+
+.signUp-btn {
+  color: black;
+  font-family: Arial;
+}
+
+/* set the modal at the mdl of the page with opacity and shadow */
+.modal-content {
+  width: 383px !important;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 200px;
+  opacity: 0.8;
+  -webkit-box-shadow: 1px 1px 3px;
+          box-shadow: 1px 1px 3px;
+  z-index: -1;
+  font-family: Arial;
+  border-radius: 20px;
+}
+
+#error-message {
+  color: green;
+  font-family: Arial;
+}
+
+#error-message2 {
+  color: blue;
+  font-family: Arial;
+}
+
+#id02 {
+  -webkit-animation: fadein 2s;
+  /* Safari, Chrome and Opera > 12.1 */
+  /* Firefox < 16 */
+  /* Internet Explorer */
+  /* Opera < 12.1 */
+  animation: fadein 2s;
+}
+
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+canvas {
+  border: 1px solid #c3c3c3;
+  height: 200px;
+  width: 350px;
+}
+/*# sourceMappingURL=style.css.map */
